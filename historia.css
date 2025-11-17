@@ -83,6 +83,55 @@ header p {
     line-height: 1.6;
 }
 
+/* GARRA — bloco final */
+.garra {
+    margin-top: 40px;
+    padding: 30px;
+    background: #3b3b5c;
+    border-left: 6px solid var(--primary-color);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.7s ease-in-out;
+}
+
+.garra h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.garra p {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Botão */
+.btn-enviar {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #6c5ce7;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1.1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.btn-enviar:hover {
+    background: #a29bfe;
+    transform: translateY(-3px);
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 /* Footer */
 footer {
     background-color: #6c5ce7;
